@@ -1,0 +1,92 @@
+SSMS: https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15
+SQL Server: https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+Hoặc truy cập đường dẫn bên dưới > Download now ở phần dành cho Developer
+
+https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+
+
+
+Sau khi tải về, bạn khởi chạy file SQL2019-SSEI-Dev. Màn hình cài đặt hiển thị như hình. Chọn Basic để cài đặt tính năng sql Server Database Engine với cấu hình mặc định
+
+Chọn Basic ở màn hình cài đặt
+
+Chọn Accept ở màn hình License Terms
+
+
+
+Chọn vị trí cài đặt tại INSTALL LOCATION > Install để cài đặt
+
+
+
+Sau khi quá trình cài đặt xong, bạn sẽ tới màn hình thiết lập cài đặt thành công phần Developer Edition > tiếp tục chọn Customize 
+
+
+
+Chọn Next ở màn hình Microsoft Update > Procduct Updates > Install Setup Files > Install Rules > Installation Type > Product Key 
+
+
+
+Chọn "I accept the license terms and Privacy Statement" > Next
+
+
+
+Ở màn hình Feature Selection, bạn có thể chọn Select All hoặc chọn một số tính năng tối thiểu (có thể dùng trong việc học các môn CSDL) như:
+
+Database Engine Services
+Data Quality Client
+Client Tools Connectivity
+
+
+Chọn Next để chuyển đến màn hình Instance Congifuration, chọn Default instance hoặc Named instance (trong một số trường hợp cài SQL Server từ lần thứ hai bắt buộc phải thiết đặt lại field Name instance này). Nhấn Next để tiếp tục. 
+
+
+
+Chọn Next ở các màn hình tiếp theo. Ở màn hình Database Engine Configuration, chọn Mixed Mode và thiết lập password cho tài khoản > Add Current User để thêm user quản lý SQL vào ô "Specify SQL Server administrators". Nhấn Next để tới màn hình tiếp theo
+
+
+
+Ở màn hình Analysis Services Configuration, trong tab Server Mode chọn tick ở Multidimensional and Data Mining Mode > Add Current User để thêm user vào ô "Specify which users have administrative permissions for Analysis Services".
+
+
+
+Chọn Next ở các màn hình tiếp theo, tới màn hình Distributed Replay Controller > Add Current User để thêm user vào ô Specify which users have permissions for the Distributed Replay. Chọn Next để tiếp tục.
+
+
+
+Quá trình cài đặt xong, màn hình kết thúc hiện lên, chọn Close
+
+
+
+Cài đặt SQL Server Management Studio (SSMS)
+Như các phiên bản trước, chúng ta có SQL Server Management Studio để truy vấn, thiết kế và quản lý,cấu hình, giám sát,CSDL trên máy tính cục bộ của bạn và cloud.
+
+Ở màn hình Developer Edition chọn Install SSMS hoặc truy cập link:
+
+https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15
+
+
+
+Tải tập tin cài đặt SSMS như hình rồi khởi chạy
+
+
+
+Chọn vị trí cài đăt > Install
+
+
+
+Restart để hoàn thành việc cài đặt SSMS
+
+
+
+ Bạn khởi động Microsoft SQL Server Management Studio 2018 lên để tiếp tục.
+
+
+
+Thiết lập tài khoản theo Windows Authentication(Đăng nhập theo tài khoản của máy).
+Phần Server type: bạn chọn Database Engine.
+Phần Server name: bạn chọn tên máy của bạn.
+Phần Authentication: bạn chọn Windows Authentication.
+
+
+Sau khi thiết lập bạn nhấn Connect để kết nối. Mình khuyên dùng tài khoản theo SQL Server Authentication thì sẽ bảo mật tốt hơn.Khi kết nối thành công ta sẽ được giao diện như hình.
+
